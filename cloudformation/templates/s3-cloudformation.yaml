@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Sample template to create S3 bucket
+
+Resources:
+  S3BucketCloudformationTemplateUpload:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      BucketName: aws-certified-cf-templates
